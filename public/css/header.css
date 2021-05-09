@@ -1,0 +1,51 @@
+
+.navbar{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo{
+    width: 40%;
+    margin:3rem;
+}
+
+.navbar__img{
+    
+    margin: 3rem;
+}
+
+.navbar__nav{
+    width: 60%;
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__list-item{
+    margin:1rem;
+    font-size: 1rem;
+    color:var(--color-b);
+    font-weight: 400;
+    padding: 2.5rem;
+
+}
+
+.navbar__list-item:hover{
+    border-top: 4px solid var(--color-b);
+
+}
+
+.navbar__list-link--active{
+    color:var(--color-gf);
+}
+
+.navbar__list-link--bold{
+    font-weight : 600;
+}
+
+
+

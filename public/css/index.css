@@ -5,7 +5,10 @@
     padding: 0px;
     box-sizing: inherit;
     list-style: none;
+    text-decoration: none;
 }
+
+a { color: inherit; } 
 
 body {
     font-family: "Gill Sans", sans-serif;
@@ -17,6 +20,7 @@ body {
     --color-b: #0065FC;
     --color-bc: #DEEBFF;
     --color-g: #F2F2F2;
+    --color-gf: #83818b;
 }
 
 .border{
