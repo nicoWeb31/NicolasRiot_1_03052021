@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 62.5%;
+}
+
+/* color */
+:root {
+    --color-b: #0065FC;
+    --color-bc: #DEEBFF;
+    --color-g: #F2F2F2;
+}
+
+main{
+
+}
+
