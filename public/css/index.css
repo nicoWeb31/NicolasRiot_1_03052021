@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: inherit;
+    list-style: none;
 }
 
 body {
@@ -18,7 +19,11 @@ body {
     --color-g: #F2F2F2;
 }
 
-main{
-
+.border{
+    border: solid 2px black;
 }
+
+
+
+
 

@@ -6,22 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
-        rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+            rel="stylesheet"
         />
         <link rel="stylesheet" href="public/css/index.css" />
         <link rel="stylesheet" href="public/css/header.css" />
+        <link rel="stylesheet" href="public/css/sectionOne.css" />
+        <link rel="stylesheet" href="public/css/SectionTwo.css" />
+        <link rel="stylesheet" href="public/css/search.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
 
         <title>Document</title>
     </head>
     <body>
-        <header>header</header>
+        <header>
+            <nav class="navbar border">
+                <div class="navBar__logo">
+                    <img src="/public/img/logo/Reservia.svg" alt="reservia">
+                </div>
+                <div class="navBar__nav">
+                    <ul>
+                        <li>Hébergements</li>
+                        <li>Activités</li>
+                        <li>S'inscrire</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
         <main>
-            <main>main</main>
+            <section class="search border">section search</section>
+
+            <section class="sectionOne border">section one search</section>
+            <section class="sectionTwo border">section two search</section>
         </main>
 
-        <footer>footer</footer>
+        <footer class="footer border">
+            <div class="footer__block">
+                <h3 class="footer__title">A propos</h3>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Fonctionnement du site</li>
+                    <li class="footer__list-item">Conditions générale de vente</li>
+                    <li class="footer__list-item">Données et confidentialité</li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <h3 class="footer__title">Nos hébergements</h3>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Charte de qualité</li>
+                    <li class="footer__list-item">Soumettre votre hôtel</li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <h3 class="footer__title">Assistance</h3>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Centre d'aide</li>
+                    <li class="footer__list-item">Nous Contacter</li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
