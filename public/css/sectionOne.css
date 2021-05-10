@@ -1,0 +1,48 @@
+.sectionOne{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sectionOne__main{
+    width: 70%;
+    background-color: var(--color-g);
+    margin-right:3rem;
+    border-radius: 1.5rem;
+}
+
+
+
+
+.sectionOne__second{
+    width:30%;
+    background-color: var(--color-g);
+    border-radius: 1.5rem;
+
+}
+
+
+.card{
+    width: 15rem;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 1.5rem;
+
+}
+
+
+.card__photo{
+    display: block;
+    padding: auto;
+    width:95%;
+    height:50%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 0.5rem;
+    
+}
+
+.card__title{
+    font-size: 1.1rem;
+}
