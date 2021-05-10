@@ -18,12 +18,11 @@
     justify-content: flex-start;
     align-items: center;
     width: 20%;
-    /* border-radius: 20px;
-    border: 1px solid var(--color-gf); */
+
 
 }
 
-.search__block-input > i{
+.search__block-input>i {
     width: 3rem;
     display: flex;
     align-items: center;
@@ -36,31 +35,26 @@
     border-bottom-left-radius: 20%;
 }
 
-.search__block-input > i::before{
-    margin: auto;
+.search__block-input>i::before {
+    margin: 1rem;
     display: inline-block;
 }
 
-/* .search__input,
-.search__btn {
-    margin: 0;
-    padding: 0;
-
-} */
 
 .search__input {
-    
+
     border: 1px solid var(--color-g);
     height: 100%;
     color: var(--color-g);
+
 }
 
 
 .search__input::placeholder {
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 800;
-    padding-left: 1rem;
-
+    
+    padding-left:1rem;
 }
 
 .search__btn {
@@ -68,10 +62,75 @@
     height: 100%;
     width: auto;
     font-size: 1.1rem;
-    padding:0 1rem ;
+    padding: 0 1rem;
     display: inline;
     background-color: var(--color-b);
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border: 1px solid var(--color-g);
+    cursor: pointer;
+}
+
+.search__block-filter {
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.search__filter {
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+.search__btn-filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+    padding: 0;
+    height: 2rem;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid var(--color-g);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.search__btn-filter:hover {
+
+    -webkit-box-shadow: -4px 11px 24px 5px rgba(0, 0, 0, 0.62);
+    box-shadow: -4px 11px 24px 5px rgba(0, 0, 0, 0.62);
+}
+
+.search__filter-icon {
+    background-color: var(--color-bc);
+    border-radius: 50%;
+    padding: 0.7rem;
+    color: var(--color-b);
+}
+
+.search__filter-span {
+    margin: 0.5rem;
+}
+
+.search__block-info {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.search__block-info>i {
+    border: 2px solid var(--color-g);
+    padding: 5px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    color: var(--color-b)
+}
+
+.search__block-info>p {
+font-size: 0.8rem;
+color: var(--color-gf)
 }
