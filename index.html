@@ -16,6 +16,13 @@
         <link rel="stylesheet" href="public/css/search.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
 
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+        />
+
         <title>Document</title>
     </head>
     <body>
@@ -31,14 +38,23 @@
                 <div class="navbar__nav">
                     <ul class="navbar__list">
                         <li class="navbar__list-item">
-                            <a href="#" class="navbar__list-link ">Hébergements</a>
+                            <a href="#" class="navbar__list-link"
+                                >Hébergements</a
+                            >
                         </li>
                         <li class="navbar__list-item">
-                            <a href="#" class="navbar__list-link navbar__list-link--active">Activités</a>
+                            <a
+                                href="#"
+                                class="navbar__list-link navbar__list-link--active"
+                                >Activités</a
+                            >
                         </li>
                         <li class="navbar__list-item">
-                            <a href="#" class="navbar__list-link navbar__list-link--bold ">S'inscrire</a>
-
+                            <a
+                                href="#"
+                                class="navbar__list-link navbar__list-link--bold"
+                                >S'inscrire</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -47,14 +63,20 @@
 
         <main>
             <section class="search border">
-                <h2 class="search__title-primary"> Trouvez votre hébergement pour des vacances de rêve</h2>
-                <h3 class="search__title-secondary">En plein centre ville ou en pleine nature</h3>
+                <h2 class="search__title-primary">
+                    Trouvez votre hébergement pour des vacances de rêve
+                </h2>
+                <h3 class="search__title-secondary">
+                    En plein centre ville ou en pleine nature
+                </h3>
                 <div class="search__block-input">
-                    <i></i>
-                    <input type="text" placeholder="Marseille,france">
-                    <button>
-                        Rechercher
-                    </button>
+                    <i class="fas fa-map-marker-alt fa-2x "></i>
+                    <input
+                        type="text"
+                        placeholder="Marseille,france"
+                        class="search__input"
+                    />
+                    <button class="search__btn">Rechercher</button>
                 </div>
                 <div class="search__block-filter">
                     <p>Filter</p>
@@ -76,10 +98,7 @@
                     </button>
                 </div>
 
-                <div class="search__block-info">
-
-                </div>
-
+                <div class="search__block-info"></div>
             </section>
 
             <section class="sectionOne border">section one search</section>
