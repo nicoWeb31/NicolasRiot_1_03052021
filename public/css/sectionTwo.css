@@ -1,0 +1,49 @@
+.sectionTwo{
+display: flex;
+flex-direction: row;
+/* align-items: start; */
+flex-wrap: nowrap;
+align-content: stretch;
+}
+
+.sectionTow__bloc-one{
+    height: 28rem;
+
+    
+}
+
+.sectionTow__bloc-two{
+
+    height: calc(28rem/3 * 2);
+    
+}
+.sectionTow__bloc-three{
+    height: calc(28rem/3 );
+    
+}
+.sectionTow__bloc-four{
+    height: calc(28rem);
+    
+}
+.sectionTow__bloc-five{
+    height: calc(28rem/2);
+    
+}
+.sectionTow__bloc-six{
+    height: calc(28rem/2);
+    
+}
+
+.sectionTow__bloc{
+    margin: 2rem;
+    width: 18rem;
+}
+
+.sectionTow__bloc>img{
+    border-top-left-radius : 1.5rem;
+    border-top-right-radius : 1.5rem;
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    
+}
