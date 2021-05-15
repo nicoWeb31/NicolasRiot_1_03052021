@@ -8,12 +8,13 @@
     text-decoration: none;
 }
 
-a { color: inherit; } 
+a {
+    color: inherit;
+}
 
 body {
     font-family: "Gill Sans", sans-serif;
     font-size: 62.5%;
-    margin: 2rem;
 }
 
 /* color */
@@ -24,22 +25,23 @@ body {
     --color-gf: #5f5f63;
 }
 
-.border{
+.border {
     border: solid 2px black;
 }
 
 .title {
-    font-size: 1rem;
+    font-size: 1.6rem;
     margin: 2rem;
+    margin-top: 5rem;
 }
 
 .shadow {
-    box-shadow: 1px -2px 23px 0px rgba(0,0,0,0.61);
-    -webkit-box-shadow: 1px -2px 23px 0px rgba(0,0,0,0.61);
-    -moz-box-shadow: 1px -2px 23px 0px rgba(0,0,0,0.61);
+    box-shadow: 1px -2px 23px 0px rgba(0, 0, 0, 0.61);
+    -webkit-box-shadow: 1px -2px 23px 0px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 1px -2px 23px 0px rgba(0, 0, 0, 0.61);
 }
 
+main {
+    margin: 5rem;
 
-
-
-
+}
