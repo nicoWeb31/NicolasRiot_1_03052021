@@ -1,14 +1,15 @@
 .sectionOne {
     margin: 2rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* align-items: flex-start; */
-    align-items:stretch;
+    /* align-items:stretch; */
 }
 
 .sectionOne__main {
-    flex-basis: 3;
+    /* flex-basis: 3; */
     width: 70%;
+    /* flex-grow: 2; */
     background-color: var(--color-g);
     margin-right: 3rem;
     border-radius: 1.5rem;
@@ -23,6 +24,8 @@
 
 .sectionOne__second {
     width: 30%;
+
+    /* flex-grow: 1; */
     background-color: var(--color-g);
     border-radius: 1.5rem;
 
@@ -123,12 +126,12 @@
 }
 
 .card__rating-horizontal {
-    padding-top:3rem;
+    padding-top: 3rem;
 }
 
-.sectionOne__second{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+.sectionOne__second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }

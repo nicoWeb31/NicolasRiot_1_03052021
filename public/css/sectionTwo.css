@@ -41,7 +41,7 @@
 }
 
 .sectionTow__image {
-    height: 100%;
+    height: 80%;
 }
 
 .sectionTow__title {
@@ -63,6 +63,10 @@
     overflow: hidden;
 
 }
+/* 
+#img_fort{
+    height: 50%;
+} */
 
 
 
@@ -72,17 +76,18 @@
 
 
 .sectionTow__bloc-two {
+    flex-basis: 60%;
     height: 30%;
 
 }
 
-/* .sectionTow__bloc-two>img {
+.sectionTow__bloc-two>img {
     height: 18rem;
-
-} */
+}
 
 .sectionTow__bloc-three {
-
+    
+    flex-basis: 40%;
     height: 30%;
 
 }
