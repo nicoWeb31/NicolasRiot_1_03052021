@@ -1,9 +1,7 @@
 .sectionTow {}
 
 .sectionTwo__bloc-image {
-
     display: flex;
-    /* height: 45rem; */
 }
 
 .sectionTwo__main-title {
@@ -20,33 +18,61 @@
 }
 
 /* column  */
-.sectionTow__row {
+.sectionTow__column {
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     height: 45rem;
 
 }
 
-/* content img */
+
 .sectionTow__bloc {
 
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
+    height: 100%;
     border-radius: 1.5rem;
     margin: 2rem;
 
+} 
+
+
+
+.sectionTow__title {
+    height: 2.5rem;
+    margin-top: auto;
+    padding: .5rem;
+
 }
 
-.sectionTow__image {
+/* heigth div img */
+.sectionTow__image--one{
+    height: 100%;
+}
+
+.sectionTow__image--two{
+    height: 85%;
+}
+
+.sectionTow__image--three{
+    height: 75%;
+}
+
+.sectionTow__image--four{
+    height: 105%;
+}
+
+.sectionTow__image--five{
+    height: 105%;
+}
+
+.sectionTow__image--six{
     height: 80%;
 }
 
-.sectionTow__title {
-    height: 5rem;
-}
+
 
 /* fin */
 
@@ -61,28 +87,16 @@
     height: 100%;
 
     overflow: hidden;
-
 }
-/* 
-#img_fort{
-    height: 50%;
-} */
 
 
 
 
-.sectionTow__bloc-one {}
 
 
 
 .sectionTow__bloc-two {
-    flex-basis: 60%;
     height: 30%;
-
-}
-
-.sectionTow__bloc-two>img {
-    height: 18rem;
 }
 
 .sectionTow__bloc-three {
