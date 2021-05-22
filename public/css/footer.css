@@ -26,3 +26,19 @@
 .footer__list-item {
 margin:1rem 0;
 }
+
+@media screen and (max-width: 415px) {
+
+    .footer{
+
+        padding: 3rem;
+        flex-direction: column;
+    }
+
+    .footer__block{
+        margin-right: 3rem;
+
+    }
+    
+
+}

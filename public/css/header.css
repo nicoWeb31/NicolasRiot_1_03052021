@@ -4,11 +4,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .navbar__logo{
-    width: 40%;
+    width: 30%;
     margin:3rem;
+}
+
+.navbar__list-link--active{
+    color:var(--color-gf);
 }
 
 .navbar__img{
@@ -23,6 +28,7 @@
 .navbar__list{
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .navbar__list-item{
@@ -39,12 +45,15 @@
 
 }
 
-.navbar__list-link--active{
-    color:var(--color-gf);
-}
 
 .navbar__list-link--bold{
     font-weight : 600;
+}
+
+@media screen and (max-width: 415px) {
+
+
+
 }
 
 
