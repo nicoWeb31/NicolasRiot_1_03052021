@@ -126,6 +126,7 @@
     .sectionTwo__bloc-image {
         display: flex;
         flex-direction: column;
+        margin:1rem;
     }
 
     .sectionTow__bloc {
