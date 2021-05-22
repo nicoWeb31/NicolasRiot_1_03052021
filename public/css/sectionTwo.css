@@ -72,9 +72,6 @@
 .sectionTow__image--six{
     height: 80%;
 }
-
-
-
 /* fin */
 
 
@@ -89,12 +86,6 @@
 
     overflow: hidden;
 }
-
-
-
-
-
-
 
 .sectionTow__bloc-two {
     height: 30%;
@@ -127,4 +118,37 @@
 .sectionTow__bloc-six {
 
     height: 40%;
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .sectionTwo__bloc-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionTow__bloc {
+
+
+        height: 30rem;
+        border-radius: 1.5rem;
+        margin: 1rem;
+    
+    }
+
+    /* image */
+.sectionTow__image>img {
+
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
+
+    overflow: hidden;
+}
+    
+
+
 }
