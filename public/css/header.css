@@ -139,10 +139,6 @@
         margin: 3rem;
     }
 
-    /* .navbar__nav {
-        
-    } */
-
     .navbar__list {
 
         display: flex;
@@ -152,27 +148,29 @@
 
     .navbar__list-item {
         margin: 1rem;
-        padding: 1.5rem 2.5rem;
+        padding: 1rem 2.5rem;
 
     }
 
     .navbar__activite {
         margin: 0;
-        padding-left: 3.2rem;
+        padding-left: 3rem;
         border-bottom: 4px solid var(--color-g);
 
     }
 
     .navbar__activite>a {
-        width: 100%;
-        padding: 2.8rem;
+        margin: 0;
+        padding-left: 3rem;
+        border-bottom:0px;
 
     }
 
 
+
     .navbar__heber {
         margin: 0;
-        padding-right: 3.17rem;
+        padding-right: 3rem;
         border-bottom: 4px solid var(--color-b);
 
     }
