@@ -42,3 +42,35 @@ margin:1rem 0;
     
 
 }
+
+
+@media screen and (max-width:1662px) and (min-width:780px)  {
+
+    .footer{
+
+        padding:0rem;
+        flex-direction: row;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .footer__block{
+        margin-right: 0rem;
+
+    }
+
+}
+
+@media screen and (max-width:780px) and (min-width:415px)  {
+
+    .footer{
+
+        padding:0rem;
+        flex-direction: column;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+
+}
+
