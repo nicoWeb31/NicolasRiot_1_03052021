@@ -31,11 +31,14 @@ margin:1rem 0;
 
     .footer{
 
-        padding: 3rem;
+        width: auto;
+        padding: 2rem;
         flex-direction: column;
+
     }
     .footer__block{
-        margin-right: 3rem;
+        margin-top: 1rem;
+        width: 80%
     }
     
 }
