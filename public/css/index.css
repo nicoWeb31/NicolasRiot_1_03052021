@@ -41,6 +41,10 @@ body {
     box-shadow: 1px -2px 23px 0px rgba(0, 0, 0, 0.61);
 }
 
+.icon-svg{
+    width: 10px;
+}
+
 
 /* Apple iPhone 8 Plus has viewport size 414 x 736 Pixels */
 @media screen and (max-width: 415px) {
