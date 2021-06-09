@@ -1,15 +1,17 @@
-
 .navbar {
     height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    padding-left: 2rem;
 }
 
-.navbar__logo {
-    width: 30%;
-    margin: 3rem;
+
+.navbar__content {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 16rem);
+    align-items: center;
+    justify-content: center;
+
+
+
 }
 
 .navbar__list-link--active {
@@ -22,8 +24,9 @@
 }
 
 .navbar__img {
+    justify-self: start;
+    padding-left: 3rem;
 
-    margin: 3rem;
 }
 
 .navbar__nav {
@@ -51,17 +54,30 @@
 
 
 
-@media screen and (max-width: 412px) {
 
-    .navbar {
 
-        display: flex;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-flow: wrap;
+@media screen and (max-width: 768px) {
 
+    .navbar {}
+
+
+    .navbar__content {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+
+    .navbar__image {
+        grid-area: 1 / 1 / 2 / 2;
+        padding-left: 5rem;
+    }
+
+    .navbar__register {
+        grid-area: 1 / 2 / 2 / 3;
+        order: 2;
+        justify-self: end;
+        padding-right: 5rem;
     }
 
     .navbar__list-item {
@@ -69,108 +85,5 @@
         padding: 0.5rem 0.5rem;
 
     }
-
-
-
-
-    
-}
-
-@media screen and (min-width: 412px)  and (max-width: 415px) {
-
-
-    .navbar {
-        position: relative;
-        display: block;
-        height: auto;
-    }
-
-    .navbar__logo {
-        position: absolute;
-        top: 0.25rem;
-        margin: 1.5rem;
-    }
-
-    .navbar__register {
-        margin-top: 4rem;
-    }
-
-
-    .navbar__list-link--active {
-        color: #5f5f63;
-    }
-
-    .navbar__img {
-        margin: 3rem;
-    }
-
-    .navbar__list {
-
-        display: flex;
-        flex-flow: wrap-reverse;
-
-    }
-
-    .navbar__list-item {
-        margin: 1rem;
-        padding: 1rem 2.5rem;
-
-    }
-
-    .navbar__activite {
-        margin: 0;
-        padding-left: 3rem;
-        border-bottom: 4px solid #F2F2F2;
-
-    }
-
-    .navbar__activite>a {
-        margin: 0;
-        padding-left: 3rem;
-        border-bottom: 0px;
-
-    }
-
-
-
-    .navbar__heber {
-        margin: 0;
-        padding-right: 3rem;
-        border-bottom: 4px solid #0065FC;
-
-    }
-
-    .navbar__list-item:hover {
-        /* border-bottom: 4px solid #0065FC; */
-        border-top: inherit;
-    }
-
-
-
-
-
-
-
-}
-
-@media screen and (max-width:800px) and (min-width:415px) {
-
-    .navbar {
-
-        display: flex;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-flow: wrap;
-
-    }
-
-    .navbar__list-item {
-        margin: 1rem;
-        padding: 1rem 1rem;
-
-    }
-
 
 }
