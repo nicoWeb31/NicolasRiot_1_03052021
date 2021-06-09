@@ -5,7 +5,7 @@
 
 .sectionOne__main {
     width: 70%;
-    background-color: var(--color-g);
+    background-color: #F2F2F2;
     margin-right: 3rem;
     /* padding: 2rem 0; */
     border-radius: 1.5rem;
@@ -38,7 +38,7 @@
 
 .sectionOne__second {
     width: 30%;
-    background-color: var(--color-g);
+    background-color: #F2F2F2;
     border-radius: 1.5rem;
 
 }
@@ -100,11 +100,11 @@
 }
 
 .card__stars--empty {
-    color: var(--color-g)
+    color: #F2F2F2;
 }
 
 .card__stars--full {
-    color: var(--color-b)
+    color: #0065FC;
 }
 
 .sectionOne__main-more {
@@ -171,7 +171,7 @@
 
     .sectionOne__second {
         width: 100%;
-        background-color: var(--color-g);
+        background-color: #F2F2F2;
         border-radius:inherit;
         align-items: center;
         justify-content: center;
@@ -208,7 +208,7 @@
 
     .sectionOne__second {
         width: 100%;
-        background-color: var(--color-g);
+        background-color: #F2F2F2;
         border-radius:inherit;
         align-items: center;
         justify-content: center;

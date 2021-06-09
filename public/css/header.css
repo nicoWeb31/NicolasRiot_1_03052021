@@ -13,11 +13,11 @@
 }
 
 .navbar__list-link--active {
-    color: var(--color-gf);
+    color: #5f5f63;
 }
 
 .navbar__list-item:hover {
-    border-top: 4px solid var(--color-b);
+    border-top: 4px solid #0065FC;
 
 }
 
@@ -39,7 +39,7 @@
 .navbar__list-item {
     margin: 1rem;
     font-size: 1rem;
-    color: var(--color-b);
+    color: #0065FC;
     font-weight: 400;
     padding: 2.5rem;
     white-space: nowrap
@@ -97,7 +97,7 @@
 
 
     .navbar__list-link--active {
-        color: var(--color-gf);
+        color: #5f5f63;
     }
 
     .navbar__img {
@@ -120,7 +120,7 @@
     .navbar__activite {
         margin: 0;
         padding-left: 3rem;
-        border-bottom: 4px solid var(--color-g);
+        border-bottom: 4px solid #F2F2F2;
 
     }
 
@@ -136,12 +136,12 @@
     .navbar__heber {
         margin: 0;
         padding-right: 3rem;
-        border-bottom: 4px solid var(--color-b);
+        border-bottom: 4px solid #0065FC;
 
     }
 
     .navbar__list-item:hover {
-        /* border-bottom: 4px solid var(--color-b); */
+        /* border-bottom: 4px solid #0065FC; */
         border-top: inherit;
     }
 
