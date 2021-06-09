@@ -7,7 +7,7 @@
 .search__title-secondary {
     margin: 0.5rem 2rem;
     font-size: 1rem;
-    color: var(--color-gf)
+    color: #5f5f63
 }
 
 .search__block-input {
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: var(--color-g);
+    background-color: #5f5f63;
 
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -46,9 +46,9 @@
 
 .search__input {
 
-    border: 1px solid var(--color-g);
+    border: 1px solid #5f5f63;
     height: 100%;
-    /* color: var(--color-g); */
+    /* color: #5f5f63; */
     color: black;
 
 
@@ -71,10 +71,10 @@
     font-size: 1.1rem;
     padding: 0 1rem;
     display: inline;
-    background-color: var(--color-b);
+    background-color: #0065FC;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    border: 1px solid var(--color-g);
+    border: 1px solid #5f5f63;
     cursor: pointer;
 }
 
@@ -102,7 +102,7 @@
     height: 2rem;
     background: white;
     border-radius: 20px;
-    border: 2px solid var(--color-g);
+    border: 2px solid #5f5f63;
     font-weight: 800;
     cursor: pointer;
 }
@@ -112,10 +112,10 @@
 }
 
 .search__filter-icon {
-    background-color: var(--color-bc);
+    background-color: #DEEBFF;
     border-radius: 50%;
     padding: 0.7rem;
-    color: var(--color-b);
+    color: #0065FC;
 }
 
 .search__filter-span {
@@ -130,17 +130,17 @@
 }
 
 .search__block-info>i {
-    border: 2px solid var(--color-g);
+    border: 2px solid #5f5f63;
     padding: 0.5rem 0.75rem;
     font-size: 1rem;
     margin-right: 1rem;
     border-radius: 50%;
-    color: var(--color-b)
+    color: #0065FC
 }
 
 .search__block-info>p {
     font-size: 0.8rem;
-    color: var(--color-gf)
+    color: #5f5f63
 }
 
 /* Apple iPhone 8 Plus has viewport size 414 x 736 Pixels */
