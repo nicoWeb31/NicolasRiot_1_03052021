@@ -46,6 +46,7 @@ body {
 }
 
 
+/* break point BT5 */
 @media screen and (max-width: 576px) {
 
     main{
@@ -55,7 +56,6 @@ body {
     }
 
 }
-/* break point BT5 */
 @media screen and (min-width: 576px) and (max-width: 768px) {}
 @media screen and (min-width: 768px) and (max-width: 992px) {}
 @media screen and (min-width: 992px) and (max-width: 1200px) {}
