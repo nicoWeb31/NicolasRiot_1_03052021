@@ -152,7 +152,15 @@
 }
 
 
-@media screen and (max-width: 415px) {
+
+/* break point BT5 */
+/* @media screen and (max-width: 576px) {} */
+/* @media screen and (min-width: 576px) and (max-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 992px) and (max-width: 1200px) {} */
+
+
+@media screen and (max-width: 576px) {
 
     .sectionOne {
         margin: 0rem;
@@ -189,7 +197,7 @@
 
 
 
-@media screen and (max-width:1292px) and (min-width:415px)  {
+@media screen and (min-width: 576px) and (max-width: 1200px) {
 
     .sectionOne {
         margin: 0rem;
