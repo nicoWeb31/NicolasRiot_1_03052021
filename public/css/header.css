@@ -9,10 +9,17 @@
     grid-template-columns: 1fr repeat(3, 16rem);
     align-items: center;
     justify-content: center;
-
-
-
 }
+
+.navbar__list-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
 
 .navbar__list-link--active {
     color: #5f5f63;
@@ -40,7 +47,7 @@
 }
 
 .navbar__list-item {
-    margin: 1rem;
+    
     font-size: 1rem;
     color: #0065FC;
     font-weight: 400;

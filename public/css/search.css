@@ -10,8 +10,8 @@
     color: #5f5f63
 }
 
-.search__block-input {
 
+.search__block-input {
     margin: 1.5rem 2rem;
     height: 3rem;
     display: flex;
@@ -19,11 +19,6 @@
     align-items: center;
     width: 20%;
 }
-
-/* .search__btn-filter>* {
-    flex: 1 1 ;
-} */
-
 
 
 .search__block-input>i {
